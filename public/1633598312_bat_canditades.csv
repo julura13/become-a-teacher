@@ -1,0 +1,5 @@
+ID,Name,Email,"Age range",Gender,University,"University other","Opted in","Number of attempts","Created at","Updated at"
+1,"Koos Kombuis",koos@abc.co.za,45,Male,UPT,,1,1,"2021-07-21 10:12:59","2021-07-21 10:12:59"
+2,"Juan Rautenbach",juan13rautenbach@gmail.com,"I am between 35-40",Male,"University of Pretoria",,1,5,"2021-09-09 02:02:55","2021-10-06 19:18:24"
+3,"Koos Kombuis",koos@abcd.co.za,24,Male,UCT,,1,1,"2021-09-09 10:05:54","2021-09-09 10:05:54"
+4,Juan,juan@julura.co.za,31,Male,"Some university",,,1,"2021-09-16 12:15:16","2021-09-16 12:15:16"

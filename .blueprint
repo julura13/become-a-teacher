@@ -1,0 +1,14 @@
+created:
+    - app/Http/Controllers/CandidateController.php
+    - database/factories/CandidateFactory.php
+    - database/migrations/2021_05_21_222527_create_candidates_table.php
+    - app/Candidate.php
+    - tests/Feature/Http/Controllers/CandidateControllerTest.php
+    - resources/views/candidate/index.blade.php
+    - resources/views/candidate/show.blade.php
+    - resources/views/candidate/create.blade.php
+updated:
+    - routes/web.php
+models:
+    User: { name: string, email: string, email_verified_at: 'datetime nullable', password: string, remember_token: 'string:100 nullable' }
+    Candidate: { name: string, date_of_birth: datetime, university: string, gender: string, email: string, opt_in: boolean }

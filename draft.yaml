@@ -1,0 +1,35 @@
+models:
+  Candidate:
+    name: string
+    date_of_birth: datetime
+    university: string
+    gender: string
+    email: string
+    opt_in: boolean
+
+  Pathway:
+    name: string
+    description: longtext
+    relationships:
+      hasMany: Requirement
+
+  Requirement:
+    name: string
+    description: longtext
+
+  Course:
+    name: string
+    description: longtext
+    
+controllers:
+  Candidate:
+    index:
+      query: all
+      render: candidate.index with:posts
+    show:
+      render: candidate.show with:post
+    create:
+      render: candidate.create
+    Store:
+      save: candidate
+      flash: message
